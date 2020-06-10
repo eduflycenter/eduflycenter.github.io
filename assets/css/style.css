@@ -421,7 +421,7 @@ h6 {
   animation: left-right 2s ease-in-out infinite alternate-reverse both;
 }
 .big1{
-  animation: big1 2s ease-in-out infinite alternate-reverse both;
+  animation: big1 3s ease-in-out infinite alternate-reverse both;
 }
 .big2{
   animation: big2 2s ease-in-out infinite alternate-reverse both;
@@ -499,7 +499,7 @@ h6 {
     transform: scale(1);
   }
   100% {
-    transform: scale(2);
+    transform: scale(1.6);
   }
 }
 
@@ -514,11 +514,11 @@ h6 {
 
 @keyframes big3 {
   0% {
-    transform: scale(.5);
+    transform: scale(.7);
   
   }
   100% {
-    transform: scale(.8);
+    transform: scale(1);
     
   }
 }
@@ -638,6 +638,7 @@ section {
   position: relative;
 }
 
+
 .about .content ul li + li {
   margin-top: 10px;
 }
@@ -647,8 +648,20 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  /* color: #3498db; */
   line-height: 1;
+}
+
+.about .content ul i.color1 {
+  color: #12365d;
+}
+
+.about .content ul i.color2 {
+  color: #0f6e38;
+}
+
+.about .content ul i.color3 {
+  color: #ed1f24;
 }
 
 .about .content p:last-child {
@@ -1350,6 +1363,21 @@ section {
   font-size: 18px;
   padding-right: 4px;
 }
+.pricing .box i.color1 {
+  color: #e74c3c;
+  font-size: 18px;
+  padding-right: 4px;
+}
+.pricing .box i.color2 {
+  color: #27ae60;
+  font-size: 18px;
+  padding-right: 4px;
+}
+.pricing .box i.color3 {
+  color: #12365d;
+  font-size: 18px;
+  padding-right: 4px;
+}
 
 .pricing .box ul .na {
   color: #ccc;
@@ -1359,6 +1387,11 @@ section {
 .pricing .box .btn-wrap {
   padding: 15px;
   text-align: center;
+}
+
+.pricing .section-title i {
+  font-size: 28px;
+  color: #3498db;
 }
 
 .pricing .box .btn-buy {
