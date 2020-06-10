@@ -546,7 +546,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 20px !important;
 }
 
 .section-title h2 {
@@ -973,15 +973,15 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
+/* .testimonials .testimonial-wrap {
   padding-left: 50px;
-}
+} */
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
+  padding: 10px 20px 20px 30px;
   margin: 30px 15px;
-  min-height: 200px;
+  min-height: 100px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -992,11 +992,18 @@ section {
   border-radius: 10px;
   border: 6px solid #fff;
   position: absolute;
-  left: -45px;
+}
+.testimonials .testimonial-item img {
+  border-radius: 20px;
+  width: 200px;
+  border: 6px solid #fff;
+  text-align: center !important;
+  margin: auto;
 }
 
+
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
@@ -1006,6 +1013,26 @@ section {
   font-size: 14px;
   color: #999;
   margin: 0;
+}
+
+.testimonials .testimonial-item h5 {
+  font-size: 16px;
+  color: #3498db;
+  border: 1px solid #3498db;
+  background-color: white;
+  border-radius: 12px;
+  display: inline;
+  padding: 5px;
+ 
+}
+
+.testimonials .testimonial-item h5:hover {
+  font-size: 16px;
+  color: rgb(255, 255, 255) !important;
+  background-color: #b6ddc2;
+  border-radius: 12px;
+  display: inline;
+  margin: 5px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
