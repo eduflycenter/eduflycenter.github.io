@@ -74,7 +74,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   height: 80px;
-  z-index: 997;
+  z-index: 1000;
   transition: all 0.5s;
 }
 
@@ -713,48 +713,52 @@ section {
 }
 
 .counts .content .count-box { 
-  padding: 20px 0;
+  padding: 3px 0;
   width: 100%;
 }
 
 .counts .content .count-box i {
   display: block;
-  font-size: 48px;
+  font-size: 30px;
   color: #3498db;
   float: left;
 }
 
 .counts .content .count-box .color1 i {
+  margin: 6px 0 0 0px;
   display: block;
-  font-size: 48px;
-  color: #0f6e38;
+  font-size: 30px;
+  color: #032a7e;
   float: left;
 }
 
 .counts .content .count-box .color2 i {
+  margin: 6px 0 0 0px;
   display: block;
-  font-size: 48px;
-  color: #e74c3c;
+  font-size: 30px;
+  color: #371a7a;
   float: left;
 }
 
 .counts .content .count-box .color3 i {
+  margin: 6px 0 0 0px;
   display: block;
-  font-size: 48px;
+  font-size: 30px;
   color: #130f40;
   float: left;
 }
 
 .counts .content .count-box .color4 i {
+  margin: 6px 0 0 0px;
   display: block;
-  font-size: 48px;
+  font-size: 30px;
   color: #3498db;
   float: left;
 }
 
 .counts .content .count-box span {
   font-size: 36px;
-  line-height: 30px;
+  /* line-height: 30px; */
   display: block;
   font-weight: 700;
   color: #222222;
@@ -762,8 +766,8 @@ section {
 }
 
 .counts .content .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 70px;
+  padding: 0 0 0 0;
+  margin: 6px 0 0 50px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #484848;
@@ -781,6 +785,11 @@ section {
 
 .counts .content .count-box a:hover {
   color: #6f6f6f;
+}
+
+.counts .image .counts-img-gv img{
+  width: 65%;
+  border-radius: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -1222,7 +1231,7 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
-}
+} 
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
@@ -1314,6 +1323,15 @@ section {
   position: relative;
   overflow: hidden;
   border: 2px solid #f9f9f9;
+}
+
+.pricing  img {
+  width: 100%;
+  border: 6px solid #fff;
+  text-align: center !important;
+  margin: auto;
+  object-fit: cover;
+  /* position: absolute; */
 }
 
 .pricing .box h3 {
@@ -1613,7 +1631,7 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 400;
 }
 
