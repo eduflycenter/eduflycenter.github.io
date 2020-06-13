@@ -1152,13 +1152,6 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
-}
 
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -1199,14 +1192,6 @@ section {
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-}
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
@@ -1229,9 +1214,9 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+/* .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
-} 
+}  */
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
@@ -1757,4 +1742,383 @@ section {
 
 #footer .footer-links a:hover {
   color: #3498db;
+}
+
+/*****************viet them****************/
+.imgteacher-name{
+  display: flex;
+}
+
+.imgteacher-name img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h6.card-title.class-number {
+    flex: r;
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    text-align: right;
+    color: #006fba;
+}
+
+.class-subjects {
+    margin: 8px 0;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    overflow: hidden;
+}
+
+.class-subjects a{
+   color: #464646;
+}
+
+.img-subject img{
+  width: 100%;
+  height: 143px;
+}
+
+.teacher-boder{
+  background: white;
+  border:solid 1px white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.2);
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 172px;
+}
+
+.course-information{
+  background: white;
+  border:solid 1px white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.2);
+}
+
+section#portfolio-details {
+    background: #f3f3f3;
+}
+
+.course-information img{
+    margin-left: 4px;
+    width: 98%;
+    height: 167px;
+    margin-top: 5px;
+    object-fit: cover;
+}
+
+.author-area{
+  display: flex;
+}
+
+.imgteacher-name{
+  flex-grow: 1;
+}
+
+.student-info{
+  flex-grow: 1;
+}
+
+.rating-area{
+  flex-grow: 1;
+  display: flex;
+}
+
+.new-tag {
+    flex-grow: 1;
+    margin-top: 2px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #17b99f;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    text-align: center;
+    color: #fff;
+    margin-right: 9px;
+}
+
+span.new-tag-label {
+    flex-grow: 4;
+    width: auto;
+    font-weight: 600;
+    color: #464646;
+}
+
+.student-count {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    color: #464646;
+}
+
+p.card-text {
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    color: #464646;
+}
+
+h1.course_name {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: .7px;
+    color: #464646;
+    height: auto;
+    margin-bottom: 18px;
+    margin-top: 36px;
+}
+
+.course-information-all{
+    background: white;
+    border: solid 1px white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sub-menu.course-detail-sub-menu a{
+    color: #464646;
+    text-decoration: none;
+    padding: 50px;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -.1px;
+    text-align: center;
+    color: #464646;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.sub-menu.course-detail-sub-menu {
+    padding-top: 20px;
+    height: 63px;
+}
+
+.course-detail{
+  background: white;
+  border: solid 1px white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  margin-top: 10px;
+}
+
+.des-partial {
+    padding: 40px;
+}
+
+.des-partial p{
+    color: #464646;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.course-information h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: .7px;
+  color: #464646;
+  height: auto;
+  margin-top: 36px;
+  margin-left: 20px;
+}
+
+button.btn.btn-outline-danger.sign-cour {
+    width: 80%;
+}
+
+.submit-sign{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.col-lg-3.col-md-3.col-sm-6.col-12.d-flex.align-items-stretch {
+    margin-top: 20px;
+}
+
+button.btn.btn-outline-danger.sign-cour {
+    background: #df322f;
+    color: white;
+}
+
+button.btn.btn-outline-danger.sign-cour:hover{
+    background-color: #c91f24;
+}
+
+.class-teacher-time{
+  margin-top: 10px;
+}
+
+.portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+.class-subjects {
+    margin: 8px 0;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    overflow: hidden;
+}
+
+
+
+.imgteacher-name {
+    flex-grow: 1;
+}
+.imgteacher-name {
+    display: flex;
+}
+
+.portfolio .portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+    object-fit: cover;
+}
+.imgteacher-name img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+h6.card-title.class-number {
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -.2px;
+    text-align: right;
+    color: #006fba;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.boxed-btn3 {
+    text-decoration: none;
+    background: #3498db;
+    text-align: center;
+    transition: 0.9s;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 30px;
+    width: 108px;
+    height: 30px;
+    padding: 4px 2px;
+    margin-left: 40%;
+}
+
+.class-subjects a {
+    color: #464646;
+    font-size: 16px;
+}
+
+.submit-sign a{
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+
+  .rating-area{
+    display: none;
+  }
+
+  .course-information-all{
+    display: none;
+  }
+
+}
+
+@media (max-width: 990px) {
+   .portfolio-wrap a .portfolio-info .portfolio-links p{
+      display: none;
+    }
+}
+
+.column {
+  display: none; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+@media (max-width: 1000px) {
+  .portfolio-wrap .card-body .imgteacher-name .card-text .text-muted{
+     font-size: 10px;
+   }
 }
