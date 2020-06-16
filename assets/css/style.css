@@ -514,11 +514,11 @@ h6 {
 @keyframes big3 {
   0% {
     transform: scale(.7);
-  
+
   }
   100% {
     transform: scale(1);
-    
+
   }
 }
 
@@ -711,7 +711,7 @@ section {
   margin-bottom: 0;
 }
 
-.counts .content .count-box { 
+.counts .content .count-box {
   padding: 3px 0;
   width: 100%;
 }
@@ -1044,7 +1044,7 @@ section {
   border-radius: 12px;
   display: inline;
   padding: 5px;
- 
+
 }
 
 .testimonials .testimonial-item h5:hover {
@@ -1089,8 +1089,8 @@ section {
 .testimonials .owl-dot {
   display: inline-block;
   margin: 0 5px;
-  /* width: 12px;
-  height: 12px; */
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: #ddd !important;
 }
@@ -2081,88 +2081,38 @@ h6.card-title.class-number {
 }
 
 
-@media (max-width: 990px) {
-   .portfolio-wrap a .portfolio-info .portfolio-links p{
-      display: none;
-    }
 
-    .class-subjects a{
-      font-size: 13px;
-    }
-}
 
-.column {
-  display: none; 
-}
+@media (max-width: 575px) {
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-.show {
-  display: block;
-}
-@media (max-width: 1000px) {
-  .portfolio-wrap .card-body .imgteacher-name .card-text .text-muted{
-     font-size: 8px;
-   }
-}
-
-@media (max-width: 500px) {
-    .class-subjects a{
-      font-size: 26px;
-    }
-
-    .portfolio-wrap .card-body .imgteacher-name .card-text .text-muted {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 767px) {
-
-  .rating-area{
+  .course-information-all{
     display: none;
   }
+    .portfolio .portfolio-wrap .card-body .imgteacher-name p{
+      font-size: 14px !important;
+    }
+
+    .class-subjects a{
+      font-size: 14px;
+    }
+
+    .portfolio-wrap{
+      width: 70%;
+      margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
 
   .course-information-all{
     display: none;
   }
 
-  .portfolio-wrap .card-body .imgteacher-name .card-text .text-muted {
-        font-size: 16px;
-    }
-
-    .class-subjects a{
-      font-size: 16px;
-    }
-
-}
-
-.pricing table, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-.pricing th, td{
-  text-align: center;
-  padding: 5px;
-}
-
-@media(min-width: 768px){
-  .pricing .col_tb {
-    margin-left: 10%;
+  .portfolio .portfolio-wrap .card-body .imgteacher-name p {
+    font-size: 15px ;
   }
-}
 
-@media(min-width: 992px){
-  .pricing .col_tb {
-    margin-left: 20%;
+  .class-subjects a{
+    font-size: 15px;
   }
 }
