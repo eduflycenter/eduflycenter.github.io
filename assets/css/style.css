@@ -1428,6 +1428,23 @@ section {
   border-color: #2383c4;
 }
 
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .pricing .row_tb{
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricing .row_tb{
+    margin-left: 20%;
+  }
+}
+
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
