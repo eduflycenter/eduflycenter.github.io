@@ -1247,6 +1247,101 @@ section {
   border-radius: 50%;
 }
 
+@media (max-width: 500px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 80px !important;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 12px !important;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 576px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 12px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 992px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 16px;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1200px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 16px;
+    margin-left: 45px;
+  }
+}
+@media (min-width: 1201px){
+  .monhoc{
+    padding: 10px;
+    display: flex;
+  }
+  
+  .img_giaovien{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nd_mh{
+    font-size: 16px;
+    margin-left: 50px;
+  }
+}
+
+
 .nd_giaovien{
   width: 30%;
   height: 50%;
@@ -1265,30 +1360,7 @@ section {
   padding-left: 25px !important;
 } */
 
-@media (min-width: 576px) {
-  .monhoc .nd_mh{
-    left: 129px !important;
 
-  }
-}
-
-@media (min-width: 768px) {
-  .portfolio .portfolio-wrap .monhoc .nd_mh p{
-    padding-left: 25px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .portfolio .portfolio-wrap .monhoc .nd_mh p{
-    padding-left: 25px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .portfolio .portfolio-wrap .monhoc .nd_mh p{
-    padding-left: 25px !important;
-  }
-}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
