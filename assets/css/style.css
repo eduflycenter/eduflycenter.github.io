@@ -674,6 +674,10 @@ section {
   color: #ed1f24;
 }
 
+.about .content ul i.color4 {
+  color: #3498db;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -2193,4 +2197,9 @@ h6.card-title.class-number {
   /* padding: 5px; */
   text-align: center;
   float: left;
+}
+
+.more_monhoc{
+  width: 200px !important;
+  height: 200px !important;
 }
