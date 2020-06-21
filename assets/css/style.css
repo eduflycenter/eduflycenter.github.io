@@ -554,6 +554,10 @@ section {
   background-color: #f7fbfe;
 }
 
+.section-bg-white {
+  background-color: #fff !important;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 20px !important;
@@ -1829,10 +1833,10 @@ table, th, td {
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
-  width: 12px;
-  height: 12px;
+  /* width: 12px;
+  height: 12px; */
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: rgb(163, 155, 155) ;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
@@ -1849,10 +1853,38 @@ table, th, td {
   margin-bottom: 20px;
 }
 
+
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+@media (min-width:1200px){
+  .portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .portfolio-details .portfolio-info p {
+    font-size: 20px;
+    padding: 15px 0 0 0;
+  }
+}
+
+@media (max-width:567px){
+  .portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .portfolio-details .portfolio-info p {
+    font-size: 18px;
+    padding: 15px 0 0 0;
+  }
 }
 
 .portfolio-details .portfolio-info ul li + li {
@@ -1860,7 +1892,7 @@ table, th, td {
 }
 
 .portfolio-details .portfolio-info p {
-  font-size: 15px;
+  font-size: 16px;
   padding: 15px 0 0 0;
 }
 
@@ -2274,4 +2306,40 @@ h6.card-title.class-number {
 .more_monhoc{
   width: 200px !important;
   height: 200px !important;
+}
+
+.portfolio-details .container .chitiet_monhoc h3{
+  font-size: 20px !important;
+}
+
+.portfolio-details .container .chitiet_monhoc li i{
+  color: #3498db;
+  font-size: 25px;
+  padding: 8px;
+}
+
+.portfolio-details .container .chitiet_monhoc .chitiet_monhoc_dk{
+  border: 1px solid #3498db !important;
+  display: inline-block;
+  color: white;
+  background: #3498db;
+  border-radius: 10px;
+}
+
+.portfolio-details .container .chitiet_monhoc .chitiet_monhoc_dk:hover{
+  border: 1px solid #3498db !important;
+  display: inline-block;
+  color: white;
+  background: #57aae1;
+  border-radius: 10px;
+}
+
+
+@media (max-width:768px){
+  .portfolio-details .owl-carousel img{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
 }
