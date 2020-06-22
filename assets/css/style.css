@@ -1243,7 +1243,7 @@ section {
 .monhoc{
   padding: 10px;
   display: flex;
-  
+
 }
 
 .img_giaovien{
@@ -1256,7 +1256,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 80px !important;
     border-radius: 50%;
@@ -1272,7 +1272,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 100px;
     border-radius: 50%;
@@ -1288,7 +1288,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 100px;
     border-radius: 50%;
@@ -1304,7 +1304,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 100px;
     border-radius: 50%;
@@ -1319,7 +1319,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 100px;
     border-radius: 50%;
@@ -1334,7 +1334,7 @@ section {
     padding: 10px;
     display: flex;
   }
-  
+
   .img_giaovien{
     width: 100px;
     border-radius: 50%;
@@ -2187,7 +2187,7 @@ button.btn.btn-outline-danger.sign-cour:hover{
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: inline-block;
 }
 
@@ -2342,10 +2342,35 @@ h6.card-title.class-number {
     margin: auto;
     border-radius: 10px;
   }
-  
+
 }
 .portfolio-details .owl-carousel img{
   text-align: center;
   margin: auto;
   border-radius: 20px;
+}
+
+
+.testimonials .testimonial-wrap .khoahoc_nd{
+  /* padding: 10px; */
+  display: flex;
+  text-align: center;
+  /* border: 1px solid red; */
+  justify-content:center;
+}
+
+.testimonials .testimonial-wrap .khoahoc_gv{
+  padding-top: 2px;
+  width: 60px;
+  height: 60px;
+}
+
+.kh_ct{
+  display: flex;
+  justify-content:space-around;
+  /* border: 1px solid red; */
+  /* display: block; */
+}
+.kh_lop{
+  color: #3498db !important;
 }
