@@ -2321,16 +2321,16 @@ h6.card-title.class-number {
 .portfolio-details .container .chitiet_monhoc .chitiet_monhoc_dk{
   border: 1px solid #3498db !important;
   display: inline-block;
-  color: white;
-  background: #3498db;
+  color: black;
+  background: #dae0e4;
   border-radius: 10px;
 }
 
 .portfolio-details .container .chitiet_monhoc .chitiet_monhoc_dk:hover{
   border: 1px solid #3498db !important;
   display: inline-block;
-  color: white;
-  background: #57aae1;
+  color: white !important;
+  background: #a7aeb3;
   border-radius: 10px;
 }
 
@@ -2340,6 +2340,12 @@ h6.card-title.class-number {
     width: 80%;
     text-align: center;
     margin: auto;
+    border-radius: 10px;
   }
   
+}
+.portfolio-details .owl-carousel img{
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
 }
