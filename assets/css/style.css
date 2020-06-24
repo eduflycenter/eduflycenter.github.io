@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -688,8 +689,8 @@ section {
 
 .about .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -789,6 +790,22 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #484848;
+}
+
+.counts .content .count-box p b{
+  padding: 0 0 0 0;
+ 
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #3498db;
+}
+
+.counts .content .count-box p i{
+  padding: 0 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-left: 16px;
 }
 
 .counts .content .count-box a {
@@ -1582,6 +1599,7 @@ section {
 table, th, td {
   border: 1px solid black;
   text-align: center;
+  padding: 5px 2px;
 }
 
 @media (min-width: 992px) {
