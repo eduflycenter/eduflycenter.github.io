@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.khoi1{
+    display: flex;
+    /* width: 40%; */
+}
+.khoi1_img a{
+    color: gray;
+}
+.khoi1_img{
+    width: 60px;
+    height: 60px;
+}
+.khoi1_img img{
+    width: 60px;
+    height: 60px;
+    box-shadow: -1px 2px 2px 1px;
+    cursor: pointer;
+}
+
+.KhoaHocTS p{
+    display: inline;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    color: #007acf;
+    margin: 0 2px 0 0px;
+    padding: 0 2px 2px 2px;
+    font-weight: 900;
+
+}
+
+.KhoaHocTS p:hover{
+    color: #eda550;
+    cursor: pointer;
+}
+
+.KHTS{
+    padding: 7px;
+}
+
+.KhoaHocTS li:hover{
+    cursor: pointer;
+}
+
+.KHTS .khoi1_nd {
+    /* line-height: 60px; */
+    height: 60px;
+    margin: 6px 0 0 0;
+}
+
+.KHTS .khoi1_nd h4{
+    margin: 0 0  0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #007acf;
+    font-family: "Segoe UI", sans-serif;
+    cursor: pointer;
+
+    /* font-weight: 600; */
+}
+
+.KHTS .khoi1_nd h4:hover{
+    color: #3498db;
+    /* font-weight: 600; */
+}
+
+.KHTS .khoi1_nd p{
+    margin: 0px 0 0 10px;
+    font-size: 12px;
+    line-height: 1.5;
+
+    /* font-weight: 600; */
+}
+
+.khungKH{
+    border: 1px solid #e0e0e0;
+    padding: 0 !important;
+    height: 475px;
+    
+    /* overflow: auto; */
+}
+.khungKH_chitietMH{
+    border: 1px solid #e0e0e0;
+    padding: 0 !important;
+    height: 300px;
+    overflow:auto;
+}
+.khungKH_chitietMH h3{
+    background-color: #2f69b3;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 20px;
+    font-size: 18px;
+    /* display: block; */
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;
+    color: #fff;
+}
+
+
+.khungKH h3{
+    background-color: #2f69b3;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 20px;
+    font-size: 18px;
+    /* display: block; */
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;
+    color: #fff;
+}

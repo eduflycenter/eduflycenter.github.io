@@ -1855,6 +1855,55 @@ table, th, td {
   text-align: center;
 }
 
+@media (min-width: 1200px){
+  .portfolio-details .portfolio-details-carousel {
+      width: 80%;
+  }
+  .portfolio-details .chitiet_monhoc{
+    top: -28px;
+  }
+}
+
+@media (max-width: 1200px){
+  .portfolio-details .portfolio-details-carousel {
+      width: 80%;
+  }
+  .portfolio-details .chitiet_monhoc{
+    top: -28px;
+  }
+}
+@media (max-width: 992px){
+  .portfolio-details .portfolio-details-carousel {
+      width: 100%;
+  }
+
+  .portfolio-details .chitiet_monhoc{
+    top: 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .portfolio-details .portfolio-details-carousel img{
+      width: 100% !important;
+      margin: auto;
+  }
+}
+
+@media (max-width: 567px){
+  .portfolio-details .portfolio-details-carousel img{
+      width: 40% !important;
+      margin: auto;
+  }
+  .portfolio-details .chitiet_monhoc h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .portfolio-details .chitiet_monhoc li{
+    font-size: 14px;
+  }
+}
+
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
@@ -1883,14 +1932,14 @@ table, th, td {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media (min-width:1200px){
   .portfolio-details .portfolio-info ul {
     list-style: none;
     padding: 0;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .portfolio-details .portfolio-info p {
@@ -2339,7 +2388,7 @@ h6.card-title.class-number {
 
 .portfolio-details .container .chitiet_monhoc li i{
   color: #3498db;
-  font-size: 25px;
+  font-size: 16px;
   padding: 8px;
 }
 
