@@ -83,6 +83,15 @@
     /* overflow: auto; */
 }
 
+.khungKH1{
+    border: 1px solid #e0e0e0;
+    padding: 0 !important;
+    height: 360px;
+    width: 100%;
+
+    /* overflow: auto; */
+}
+
 @media (max-width:576px){
     .khungKH{
         width: 96% !important;
