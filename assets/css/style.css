@@ -797,7 +797,7 @@ section {
  
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  color: #3498db;
+  color: #289757;
 }
 
 .counts .content .count-box p i{
@@ -840,6 +840,14 @@ section {
   .counts .image img {
     max-width: 100%;
   }
+}
+
+.counts .container .row p{
+
+  font-size: 16px;
+}
+#counts{
+  font-family: 'Roboto-regular' !important;
 }
 
 /*--------------------------------------------------------------
@@ -1596,11 +1604,14 @@ section {
   border-color: #2383c4;
 }
 
+
 table, th, td {
   border: 1px solid black;
   text-align: center;
   padding: 5px 2px;
 }
+
+
 
 @media (min-width: 992px) {
   .pricing .row_tb{
@@ -2384,6 +2395,13 @@ h6.card-title.class-number {
 
 .portfolio-details .container .chitiet_monhoc h3{
   font-size: 20px !important;
+}
+
+.portfolio-details .container .chitiet_monhoc li .info_gv{
+  display: block;
+  margin-left: 35px;
+  font-weight: 500;
+
 }
 
 .portfolio-details .container .chitiet_monhoc li i{

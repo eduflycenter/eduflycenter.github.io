@@ -78,10 +78,19 @@
 .khungKH{
     border: 1px solid #e0e0e0;
     padding: 0 !important;
-    height: 475px;
-    
+    height: 360px;
+
     /* overflow: auto; */
 }
+
+@media (max-width:576px){
+    .khungKH{
+        width: 96% !important;
+        margin: auto;
+        /* overflow: auto; */
+    }
+}
+
 .khungKH_chitietMH{
     border: 1px solid #e0e0e0;
     padding: 0 !important;
@@ -96,7 +105,7 @@
     font-size: 18px;
     /* display: block; */
     border-bottom: 1px solid #e0e0e0;
-    margin: 0;
+    /* margin: 0; */
     color: #fff;
 }
 
@@ -107,6 +116,8 @@
     font-weight: bold;
     padding: 12px 20px;
     font-size: 18px;
+    margin-top: 2px !important;
+
     /* display: block; */
     border-bottom: 1px solid #e0e0e0;
     margin: 0;
