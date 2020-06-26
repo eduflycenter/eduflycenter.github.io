@@ -16,11 +16,18 @@
 
 // khoahoc12
 $(document).ready(function(){
+    $("#Toan12").css({"color": "#eda550"});
     $(".Ly12").hide();
     $(".Hoa12").hide();
     $(".Van12").hide();
     $(".Anh12").hide();
     $("#Toan12").click(function(){
+        $("#Toan12").css({"color": "#eda550"});
+        $("#Ly12").css({"color": "#007acf"});
+        $("#Hoa12").css({"color": "#007acf"});
+        $("#Van12").css({"color": "#007acf"});
+        $("#Anh12").css({"color": "#007acf"});
+
         $(".Toan12").show();
         $(".Ly12").hide();
         $(".Hoa12").hide();
@@ -30,6 +37,12 @@ $(document).ready(function(){
 
 
     $("#Ly12").click(function(){
+        $("#Ly12").css({"color": "#eda550"});
+        $("#Toan12").css({"color": "#007acf"});
+        $("#Hoa12").css({"color": "#007acf"});
+        $("#Van12").css({"color": "#007acf"});
+        $("#Anh12").css({"color": "#007acf"});
+
         $(".Ly12").show();
         $(".Toan12").hide();
         $(".Hoa12").hide();
@@ -38,6 +51,12 @@ $(document).ready(function(){
         });
 
     $("#Hoa12").click(function(){
+        $("#Hoa12").css({"color": "#eda550"});
+        $("#Toan12").css({"color": "#007acf"});
+        $("#Ly12").css({"color": "#007acf"});
+        $("#Van12").css({"color": "#007acf"});
+        $("#Anh12").css({"color": "#007acf"});
+
         $(".Hoa12").show();
         $(".Toan12").hide();
         $(".Ly12").hide();
@@ -46,6 +65,12 @@ $(document).ready(function(){
     });
 
     $("#Van12").click(function(){
+        $("#Van12").css({"color": "#eda550"});
+        $("#Toan12").css({"color": "#007acf"});
+        $("#Hoa12").css({"color": "#007acf"});
+        $("#Ly12").css({"color": "#007acf"});
+        $("#Anh12").css({"color": "#007acf"});
+
         $(".Van12").show();
         $(".Toan12").hide();
         $(".Ly12").hide();
@@ -54,6 +79,12 @@ $(document).ready(function(){
     });
 
     $("#Anh12").click(function(){
+        $("#Anh12").css({"color": "#eda550"});
+        $("#Toan12").css({"color": "#007acf"});
+        $("#Hoa12").css({"color": "#007acf"});
+        $("#Van12").css({"color": "#007acf"});
+        $("#Ly12").css({"color": "#007acf"});
+
         $(".Anh12").show();
         $(".Toan12").hide();
         $(".Ly12").hide();
@@ -64,11 +95,18 @@ $(document).ready(function(){
 
 // khoahoc9
 $(document).ready(function(){
+    $("#Toan9").css({"color": "#eda550"});
     $(".Ly9").hide();
     $(".Hoa9").hide();
     $(".Van9").hide();
     $(".Anh9").hide();
     $("#Toan9").click(function(){
+        $("#Toan9").css({"color": "#eda550"});
+        $("#Ly9").css({"color": "#007acf"});
+        $("#Hoa9").css({"color": "#007acf"});
+        $("#Van9").css({"color": "#007acf"});
+        $("#Anh9").css({"color": "#007acf"});
+
         $(".Toan9").show();
         $(".Ly9").hide();
         $(".Hoa9").hide();
@@ -78,6 +116,12 @@ $(document).ready(function(){
 
 
     $("#Ly9").click(function(){
+        $("#Ly9").css({"color": "#eda550"});
+        $("#Toan9").css({"color": "#007acf"});
+        $("#Hoa9").css({"color": "#007acf"});
+        $("#Van9").css({"color": "#007acf"});
+        $("#Anh9").css({"color": "#007acf"});
+
         $(".Ly9").show();
         $(".Toan9").hide();
         $(".Hoa9").hide();
@@ -86,6 +130,12 @@ $(document).ready(function(){
         });
 
     $("#Hoa9").click(function(){
+        $("#Hoa9").css({"color": "#eda550"});
+        $("#Toan9").css({"color": "#007acf"});
+        $("#Ly9").css({"color": "#007acf"});
+        $("#Van9").css({"color": "#007acf"});
+        $("#Anh9").css({"color": "#007acf"});
+
         $(".Hoa9").show();
         $(".Toan9").hide();
         $(".Ly9").hide();
@@ -94,6 +144,12 @@ $(document).ready(function(){
     });
 
     $("#Van9").click(function(){
+        $("#Van9").css({"color": "#eda550"});
+        $("#Toan9").css({"color": "#007acf"});
+        $("#Ly9").css({"color": "#007acf"});
+        $("#Hoa9").css({"color": "#007acf"});
+        $("#Anh9").css({"color": "#007acf"});
+
         $(".Van9").show();
         $(".Toan9").hide();
         $(".Ly9").hide();
@@ -102,6 +158,12 @@ $(document).ready(function(){
     });
 
     $("#Anh9").click(function(){
+        $("#Anh9").css({"color": "#eda550"});
+        $("#Toan9").css({"color": "#007acf"});
+        $("#Ly9").css({"color": "#007acf"});
+        $("#Hoa9").css({"color": "#007acf"});
+        $("#Van9").css({"color": "#007acf"});
+
         $(".Anh9").show();
         $(".Toan9").hide();
         $(".Ly9").hide();
@@ -112,10 +174,16 @@ $(document).ready(function(){
 
 // khoahoc5
 $(document).ready(function(){
+    $("#Toan5").css({"color": "#eda550"});
     $(".ToanTA5").hide();
     $(".TiengViet5").hide();
     $(".TiengAnh5").hide();
     $("#Toan5").click(function(){
+        $("#Toan5").css({"color": "#eda550"});
+        $("#ToanTA5").css({"color": "#007acf"});
+        $("#TiengViet5").css({"color": "#007acf"});
+        $("#TiengAnh5").css({"color": "#007acf"});
+
         $(".Toan5").show();
         $(".ToanTA5").hide();
         $(".TiengViet5").hide();
@@ -124,6 +192,11 @@ $(document).ready(function(){
 
 
     $("#ToanTA5").click(function(){
+        $("#ToanTA5").css({"color": "#eda550"});
+        $("#Toan5").css({"color": "#007acf"});
+        $("#TiengViet5").css({"color": "#007acf"});
+        $("#TiengAnh5").css({"color": "#007acf"});
+
         $(".ToanTA5").show();
         $(".Toan5").hide();
         $(".TiengViet5").hide();
@@ -131,6 +204,11 @@ $(document).ready(function(){
         });
 
     $("#TiengViet5").click(function(){
+        $("#TiengViet5").css({"color": "#eda550"});
+        $("#ToanTA5").css({"color": "#007acf"});
+        $("#Toan5").css({"color": "#007acf"});
+        $("#TiengAnh5").css({"color": "#007acf"});
+
         $(".TiengViet5").show();
         $(".Toan5").hide();
         $(".ToanTA5").hide();
@@ -138,6 +216,11 @@ $(document).ready(function(){
     });
 
     $("#TiengAnh5").click(function(){
+        $("#TiengAnh5").css({"color": "#eda550"});
+        $("#ToanTA5").css({"color": "#007acf"});
+        $("#TiengViet5").css({"color": "#007acf"});
+        $("#Toan5").css({"color": "#007acf"});
+
         $(".TiengAnh5").show();
         $(".Toan5").hide();
         $(".ToanTA5").hide();
